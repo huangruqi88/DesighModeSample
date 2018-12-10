@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DesighModeSample</string>
+    <string name="simple_factory">简单工厂</string>
+    <string name="strategy">策略模式</string>
+    <string name="check_look">您已经点击了 %1$s  %2$d 次，请到 %3s 包下查看 %4$s 源码,</string>
+    <string name="sure">确定</string>
+    <string name="input_num">请输入数量</string>
+    <string name="num">数量：</string>
+    <string name="input_price">请输入单价</string>
+    <string name="price">单价：</string>
+    <string name="reset">重置</string>
+    <string name="result">总计：</string>
+</resources>
