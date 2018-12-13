@@ -11,7 +11,7 @@ Github .md文件编辑语法格式https://blog.csdn.net/u012067966/article/detai
   
   
 ## 2.开放-封闭原则（简称开闭原则OCP）
-</br>开闭原则：　软件实体（类、模块、函数等等）可以扩展，但是不可以修改。  
+</br>开闭原则：　软件实体（类、模块、函数等等）可以扩展，但是不可以修改。
 </br>特征：  
 </br>　　1.对于扩展是开放的（Open for extension）
 </br>　　2.对于修改是关闭的（Closed for modification）  
