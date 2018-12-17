@@ -79,7 +79,8 @@
 ##### ------------------- 代码 --------------------
 `Person p = new Person`
 
-```public class MainActivity extends BaseActivity implements View.OnClickListener {
+```
+public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     private RecyclerView mList;
     private ArrayList<MenuBean> data;
