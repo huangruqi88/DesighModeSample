@@ -10,4 +10,5 @@
     <string name="price">单价：</string>
     <string name="reset">重置</string>
     <string name="result">总计：</string>
+    <string name="design_mode">设计模式</string>
 </resources>
