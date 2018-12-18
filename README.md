@@ -1,4 +1,5 @@
 # 设计模式七大设计原则
+##### [二十三种设计模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md)
 
 Github .md文件编辑语法格式https://blog.csdn.net/u012067966/article/details/50736647
 本文主要参考自《大话设计模式》和网上博客（注：博客忘了链接地址了）如有侵权请主动联系作者
