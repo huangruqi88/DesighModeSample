@@ -16,14 +16,15 @@ import butterknife.BindView;
  */
 public class OCPFragment extends BaseFragment {
 
-    @BindView(R.id.container)
-    TextView mContainer;
+    @BindView(R.id.tv_container)
+    TextView mTvContainer;
+
 
     @Override
     protected void initDate() {
         Intent intent = getActivity().getIntent();
         String data = intent.getStringExtra(Consonat.DATE);
-        mContainer.setText(data);
+        mTvContainer.setText(data);
         /******************** 非开闭原则 ******************************/
         Person person = new Person();
         person.doctor();

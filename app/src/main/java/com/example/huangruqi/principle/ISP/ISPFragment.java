@@ -22,14 +22,14 @@ public class ISPFragment extends BaseFragment {
 
     private static final String TAG = "接口隔离";
 
-    @BindView(R.id.container)
-    TextView mContainer;
+    @BindView(R.id.tv_container)
+    TextView mTvContainer;
 
     @Override
     protected void initDate() {
         Intent intent = getActivity().getIntent();
         String data = intent.getStringExtra(Consonat.DATE);
-        mContainer.setText(data);
+        mTvContainer.setText(data);
 
         /******************** 里氏替换原则 ******************************/
         // 富人使用手机 发送短信、拨打电话、听音乐和看视频

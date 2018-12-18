@@ -21,14 +21,15 @@ import butterknife.BindView;
  */
 public class LODFragment extends BaseFragment {
 
-    @BindView(R.id.container)
-    TextView mContainer;
+    @BindView(R.id.tv_container)
+    TextView mTvContainer;
+
 
     @Override
     protected void initDate() {
         Intent intent = getActivity().getIntent();
         String data = intent.getStringExtra(Consonat.DATE);
-        mContainer.setText(data);
+        mTvContainer.setText(data);
 
         /******************** 里氏替换原则 ******************************/
         // 优化前 打印所有成员ID

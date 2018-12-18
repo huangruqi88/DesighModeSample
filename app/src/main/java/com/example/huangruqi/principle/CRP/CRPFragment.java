@@ -29,14 +29,14 @@ import butterknife.BindView;
  */
 public class CRPFragment extends BaseFragment {
 
-    @BindView(R.id.container)
-    TextView mContainer;
+    @BindView(R.id.tv_container)
+    TextView mTvContainer;
 
     @Override
     protected void initDate() {
         Intent intent = getActivity().getIntent();
         String data = intent.getStringExtra(Consonat.DATE);
-        mContainer.setText(data);
+        mTvContainer.setText(data);
         //组合/聚合：是通过获得其他对象的引用，在运行时刻动态定义的，也就是在一个对象中
         // 保存其他对象的属性，这种方式要求对象有良好定义的接口，并且这个接口也不经常发生改变，
         // 而且对象只能通过接口来访问，这样我们并不破坏封装性，所以只要类型一致，运行时还可以通过

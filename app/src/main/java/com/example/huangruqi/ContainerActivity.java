@@ -100,7 +100,9 @@ public class ContainerActivity extends BaseActivity {
             default:
                 break;
         }
-        transaction.commit();
+//        transaction.show(mFragment);
+        transaction.commitAllowingStateLoss();
+
     }
 
     @OnClick(R.id.iv_back)

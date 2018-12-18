@@ -22,14 +22,14 @@ import butterknife.BindView;
  */
 public class DIPFragment extends BaseFragment {
 
-    @BindView(R.id.container)
-    TextView mContainer;
+    @BindView(R.id.tv_container)
+    TextView mTvContainer;
 
     @Override
     protected void initDate() {
         Intent intent = getActivity().getIntent();
         String data = intent.getStringExtra(Consonat.DATE);
-        mContainer.setText(data);
+        mTvContainer.setText(data);
         /******************** 依赖倒转原则 ******************************/
 
         Driver0 zhangsan = new Driver0("张三");
