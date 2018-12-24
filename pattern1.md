@@ -39,6 +39,6 @@
 ## 3.装饰模式
 	装饰设计模式：动态的给对象添加一些额外的职责或者功能，装饰设计模式比生成子类更为灵活。
 
-![装饰模式](https://i.imgur.com/fCS6PvT.png)
+![装饰模式](https://i.imgur.com/sTdgLI3.png)
 
 
