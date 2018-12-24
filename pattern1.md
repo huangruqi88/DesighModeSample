@@ -20,66 +20,7 @@
 		  只能是事先考虑到的，如果需要添加新的类，则就需要改变工厂类了。当系统中的具体产品类不断增多时候，可能会出现要求工厂
 		  类根据不同条件创建不同实例的需求．这种对条件的判断和对具体产品类型的判断交错在一起，很难避免模块功能的蔓延，对系
 		  统的维护和扩展非常不利；
-```
-public interface Animal {
 
-    void eat();
-
-    void run();
-
-    void sleep();
-}
-
-public class Cat implements Animal {
-    @Override
-    public void eat() {
-    }
-
-    @Override
-    public void run() {
-    }
-
-    @Override
-    public void sleep() {
-    }
-}
-public class SampleFactory {
-
-    private static final String TAG = "SampleFactory";
-
-    public static Animal createInstence(String type) {
-        Animal mAnimal = null;
-        if ("Cat".equals(type)) {
-            mAnimal = new Cat();
-        } else if ("Dog".equals(type)) {
-            mAnimal = new Dog();
-        } else {
-            Log.e(TAG, "createInstence: -----工厂没有生成出对应的动物-----");
-        }
-        return mAnimal;
-    }
-}
-public class SampleFactory1 {
-
-    private static final String TAG = "SampleFactory1";
-
-    public static Animal createInstence(Class clazz) {
-        Animal mAnimal = null;
-        try {
-            mAnimal = (Animal) Class.forName(clazz.getName()).newInstance();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            Log.e(TAG, "createInstence: -----------不支持抽象类接口 ");
-            e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        }
-        return mAnimal;
-    }
-}
-
-```
 
 ## 2.策略设计模式
 	策略模式：它定义了算法家族，分别封装起来，让他们之间互相替换
