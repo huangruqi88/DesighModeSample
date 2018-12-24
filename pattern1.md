@@ -1,6 +1,78 @@
-# 设计模式 二十三种设计模式
-##### [六大设计原则](https://github.com/huangruqi88/DesighModeSample/blob/master/README.md)
-
-
 ## 1.简单工厂设计模式
-	简单工厂：提供一个创建对象的工厂（Factory）实例功能，而不需要具体实现，被创建的类型可以是接口、抽象类、也可以是具体的类。
+
+		简单工厂：提供一个创建对象的工厂（Factory）实例功能，而不需要具体实现，被创建的类型可以是接口、抽象类、也可以是具体的类。
+
+		简单工厂参与者：
+		* Product:抽象产品类，将具体的代码进行抽象和提取后封装在一个抽象产品中。
+		* ConcreteProduct:具体产品类，将需要创建的各种不同产品对象的相关代码封装到具体的产品类中。
+		* Factory：工厂配，提供一个工厂类用于创建各种产品，在工厂类中提供一个创建产品的工厂方法，该方法可以根据所传入的参数的不同创建不同的具体产品对象。
+		* Client：客户端类，只需要调用工厂类的工厂方法并传入想应的参数即可得到一个产品对象。
+	
+![简单工厂](https://i.imgur.com/66Fu5Yu.png)
+
+	优点： 工厂类是整个模式的关键.包含了必要的逻辑判断,根据外界给定的信息,决定究竟应该创建哪个具体类的对象.通过使用工厂类,外界可以从直接创建具体产品对象的尴尬局面摆脱出来,仅仅需要负责“消费”对象就可以了。而不必管这些对象究竟如何创建及如何组织的．明确了各自的职责和权利，有利于整个软件体系结构的优化。
+
+	缺点： 由于工厂类集中了所有实例的创建逻辑，违反了高内聚责任分配原则，将全部创建逻辑集中到了一个工厂类中；它所能创建的类只能是事先考虑到的，如果需要添加新的类，则就需要改变工厂类了。当系统中的具体产品类不断增多时候，可能会出现要求工厂类根据不同条件创建不同实例的需求．这种对条件的判断和对具体产品类型的判断交错在一起，很难避免模块功能的蔓延，对系统的维护和扩展非常不利；
+```
+public interface Animal {
+
+    void eat();
+
+    void run();
+
+    void sleep();
+}
+
+public class Cat implements Animal {
+    @Override
+    public void eat() {
+    }
+
+    @Override
+    public void run() {
+    }
+
+    @Override
+    public void sleep() {
+    }
+}
+public class SampleFactory {
+
+    private static final String TAG = "SampleFactory";
+
+    public static Animal createInstence(String type) {
+        Animal mAnimal = null;
+        if ("Cat".equals(type)) {
+            mAnimal = new Cat();
+        } else if ("Dog".equals(type)) {
+            mAnimal = new Dog();
+        } else {
+            Log.e(TAG, "createInstence: -----工厂没有生成出对应的动物-----");
+        }
+        return mAnimal;
+    }
+}
+public class SampleFactory1 {
+
+    private static final String TAG = "SampleFactory1";
+
+    public static Animal createInstence(Class clazz) {
+        Animal mAnimal = null;
+        try {
+            mAnimal = (Animal) Class.forName(clazz.getName()).newInstance();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            Log.e(TAG, "createInstence: -----------不支持抽象类接口 ");
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+        return mAnimal;
+    }
+}
+
+```
+
+## 2.策略设计模式
+	策略模式：它定义了算法家族，分别封装起来，让他们之间互相替换
