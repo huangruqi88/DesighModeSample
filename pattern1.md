@@ -48,8 +48,8 @@
 	
 		PS: 1.其实装饰设计模式就是利用一个方法（函数）来对对象进行包装。被装饰对象的实现和使用这个对象的使用分离开来，每
 		个对象只关心自己的功能，不需要关心如何被添加进对象链当中。
-			2.如果只有一个ConcreteComponent类而没有抽象的Component类，那么Decorator类可以是一个ConcreteComponent
-			的一个子类。同样，如果只有一个ConcreteDecorator类，那么可以把Decorator类和ConcreteDecorator的责任和成一个类。
+		    2.如果只有一个ConcreteComponent类而没有抽象的Component类，那么Decorator类可以是一个ConcreteComponent
+		的一个子类。同样，如果只有一个ConcreteDecorator类，那么可以把Decorator类和ConcreteDecorator的责任和成一个类。
 
 
 
