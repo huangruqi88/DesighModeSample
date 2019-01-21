@@ -41,10 +41,10 @@
 
 ![装饰模式](https://i.imgur.com/sTdgLI3.png)
 
-	Commponent是定义一个对象接口，可以给这些对象动态地添加职责。ConreteConponent(Person)[人]是定义的一个具体的对象，也可以
-	给对象添加一些职责,Decorator装饰抽象类，集成了Component,从而扩展Component的功能，对于Component来说无需知道Decorator的
-	存在。所以具体的的装饰对象是ConcreteDocoratorA(GreenHeadgear)[绿帽子]，ConcreteDoceoratorB(YellowTShorts)[黄T恤]就
-	是具体的装饰对象，实现给Compomnent添加职责的功能。
+		Commponent是定义一个对象接口，可以给这些对象动态地添加职责。ConreteConponent(Person)[人]是定义的一个具体的对象，
+	也可以给对象添加一些职责,Decorator装饰抽象类，集成了Component,从而扩展Component的功能，对于Component来说无需知道
+	Decorator的存在。所以具体的的装饰对象是ConcreteDocoratorA(GreenHeadgear)[绿帽子]，ConcreteDoceoratorB(YellowTShorts)
+	[黄T恤]就是具体的装饰对象，实现给Compomnent添加职责的功能。
 	
 		PS: 1.其实装饰设计模式就是利用一个方法（函数）来对对象进行包装。被装饰对象的实现和使用这个对象的使用分离开来，每
 		个对象只关心自己的功能，不需要关心如何被添加进对象链当中。
