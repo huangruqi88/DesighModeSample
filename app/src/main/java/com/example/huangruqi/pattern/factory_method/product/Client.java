@@ -10,17 +10,17 @@ public class Client {
     public static void main(String[] args) {
 
         //第一种方式
-        Fractory fractoryA = new ConcreteProductAFractory();
-        ConcreteProductA productA = (ConcreteProductA) fractoryA.createProduct();
+        Factory factoryA = new ConcreteProductAFactory();
+        ConcreteProductA productA = (ConcreteProductA) factoryA.createProduct();
         productA.method();
-        Fractory fractoryB = new ConcreteProductBFractory();
+        Factory factoryB = new ConcreteProductBFactory();
 
-        ConcreteProductB productB = (ConcreteProductB) fractoryB.createProduct();
+        ConcreteProductB productB = (ConcreteProductB) factoryB.createProduct();
         productB.method();
 
         //第二种方式
-        Fractory fractory = new ConcreteFactory();
-        Product product = fractory.createProduct(ConcreteProductB.class);
+        Factory factory = new ConcreteFactory();
+        Product product = factory.createProduct(ConcreteProductB.class);
         product.method();
     }
 }

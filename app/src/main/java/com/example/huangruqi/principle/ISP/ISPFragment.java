@@ -5,10 +5,8 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.example.huangruqi.BaseFragment;
-import com.example.huangruqi.Utils.Consonat;
+import com.example.huangruqi.utils.Consonat;
 import com.example.huangruqi.pattern.R;
-import com.example.huangruqi.principle.LOD.CompanyManager;
-import com.example.huangruqi.principle.LOD.SubCompanyManager;
 
 import butterknife.BindView;
 

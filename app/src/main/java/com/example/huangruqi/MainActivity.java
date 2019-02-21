@@ -6,7 +6,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 
-import com.example.huangruqi.Utils.Consonat;
+import com.example.huangruqi.utils.Consonat;
 import com.example.huangruqi.adapter.MainAdapter;
 import com.example.huangruqi.pattern.R;
 

@@ -4,12 +4,8 @@ import android.content.Intent;
 import android.widget.TextView;
 
 import com.example.huangruqi.BaseFragment;
-import com.example.huangruqi.Utils.Consonat;
+import com.example.huangruqi.utils.Consonat;
 import com.example.huangruqi.pattern.R;
-import com.example.huangruqi.principle.LSP.HandGun;
-import com.example.huangruqi.principle.LSP.MachineGun;
-import com.example.huangruqi.principle.LSP.RifleGun;
-import com.example.huangruqi.principle.LSP.Soldier;
 
 import butterknife.BindView;
 

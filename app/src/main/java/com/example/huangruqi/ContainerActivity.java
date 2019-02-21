@@ -2,7 +2,6 @@ package com.example.huangruqi;
 
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -10,7 +9,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.huangruqi.Utils.Consonat;
+import com.example.huangruqi.utils.Consonat;
 import com.example.huangruqi.pattern.R;
 import com.example.huangruqi.principle.CRP.CRPFragment;
 import com.example.huangruqi.principle.ISP.ISPFragment;
@@ -20,7 +19,6 @@ import com.example.huangruqi.principle.OCP.OCPFragment;
 import com.example.huangruqi.principle.SRP.SRPFragment;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 /**
@@ -92,6 +90,12 @@ public class ContainerActivity extends BaseActivity {
                 transaction.replace(R.id.container, mFragment);
                 break;
             case "聚合/组合复用":
+                if (null == mFragment) {
+                    mFragment = new CRPFragment();
+                }
+                transaction.replace(R.id.container, mFragment);
+                break;
+            case "简单工厂模式":
                 if (null == mFragment) {
                     mFragment = new CRPFragment();
                 }

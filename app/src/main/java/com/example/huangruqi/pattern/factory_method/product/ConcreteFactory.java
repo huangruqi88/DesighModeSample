@@ -6,7 +6,7 @@ package com.example.huangruqi.pattern.factory_method.product;
  * @Email:
  * @Description:
  */
-public class ConcreteFactory extends Fractory {
+public class ConcreteFactory extends Factory {
     @Override
     public <T extends Product> Product createProduct(Class<T> clzz) {
         Product product = null;

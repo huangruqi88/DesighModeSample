@@ -1,4 +1,4 @@
-package com.example.huangruqi.Utils;
+package com.example.huangruqi.utils;
 
 /**
  * @author huangruqi
