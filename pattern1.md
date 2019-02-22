@@ -209,4 +209,4 @@
 	    缺点：状态模式的使用必然会增加系统类和对象的个数。
 
 
-![状态模式](https://i.imgur.com/6I6YbjE.png)
+![状态模式](https://i.imgur.com/HQDblgk.png)
