@@ -1,4 +1,4 @@
-package com.example.huangruqi.pattern.factory;
+package com.example.huangruqi.pattern.sample_factory.factory;
 
 import android.util.Log;
 
