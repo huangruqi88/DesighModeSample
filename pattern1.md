@@ -306,7 +306,8 @@
 	    6.容器单例模式：在程序初始化的时候，将多种单例类型注入到一个统一管理类中，在使用时根据key获取对象对应类型的对象。
 	        优点：可以管理多种类型的单例，并且在使用时可以通过统一的接口进行获取操作，降低用户的使用成本，也对用户隐藏了具体实现，
 		降低耦合度，每一个key对用一个实例同时又保证了线程的安全。
-	    PS:Android中的使用见LayoutInflater.from(mContext).infalte(layoutID,null)from(Context)函数内部调用的是Context类的getSystemService(String key)方法实现的单例
+	    PS:Android中的使用见LayoutInflater.from(mContext).infalte(layoutID,null)from(Context)函数内部调用的是Context类的
+	    getSystemService(String key)方法实现的单例
 	总结：
 	    优点：
 	        1.由于单例模式在内存中只有一个实例，减少了内存开支，特别是一个对象需要频繁的创建、销毁时，而且创建或者销毁时性能又无
