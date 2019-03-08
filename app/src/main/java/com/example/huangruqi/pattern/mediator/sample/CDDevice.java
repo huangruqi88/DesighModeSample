@@ -5,48 +5,32 @@ package com.example.huangruqi.pattern.mediator.sample;
  * author:huang
  * Description:请详细描述当前类
  */
-public class CPU extends Colleague {
+public class CDDevice extends Colleague {
 
     /**
      * 视频和音频数据
      */
-    private String dataVideo,dataSound;
+    private String data;
 
-    public CPU(Mediator mediator) {
+    public CDDevice(Mediator mediator) {
         super(mediator);
     }
 
-    @Override
-    public void action() {
-        System.out.println("ColleagueA 将信息递交给中介者处理！");
-    }
-
     /**
-     * 获取视频数据
+     * 读取视频数据
      * @return
      */
-    public String getDataVideo() {
-        return dataVideo;
+    public String read(){
+
+        return data;
     }
 
-    /**
-     * 获取音频数据
-     * @return
-     */
-    public String getDataSound() {
-        return dataSound;
-    }
+    public void load(){
+        //在实际情况中视频数据与音频数据都在一个数据流中
+        data = "视频数据，音频数据";
 
-    public void decodeData(String data) {
-        //分割音、视频数据
-        String[] tmp = data.split(",");
-
-        //解析音、视频数据
-        dataVideo = tmp[0];
-        dataSound = tmp[1];
-
-        //告诉中介者自身状态改变
+        //通知中介者 也就是主板数据发生改变
         mediator.changed(this);
-
     }
+
 }

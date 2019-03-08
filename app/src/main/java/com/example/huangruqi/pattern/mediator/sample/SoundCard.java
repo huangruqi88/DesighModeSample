@@ -5,9 +5,9 @@ package com.example.huangruqi.pattern.mediator.sample;
  * author:huang
  * Description:请详细描述当前类
  */
-public class GraphicsCard extends Colleague {
+public class SoundCard extends Colleague {
 
-    public GraphicsCard(Mediator mediator) {
+    public SoundCard(Mediator mediator) {
         super(mediator);
     }
 
@@ -15,7 +15,7 @@ public class GraphicsCard extends Colleague {
      * 播放视频
      * @param data
      */
-    public void videoPlay(String data){
-        System.out.println("视频：" + data);
+    public void soundPlay(String data){
+        System.out.println("音频：" + data);
     }
 }

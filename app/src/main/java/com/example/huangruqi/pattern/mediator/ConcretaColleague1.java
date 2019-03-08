@@ -5,8 +5,8 @@ package com.example.huangruqi.pattern.mediator;
  * author:huang
  * Description:请详细描述当前类
  */
-public class ConcretaColleage1 extends Colleage {
-    public ConcretaColleage1(Mediator mediator) {
+public class ConcretaColleague1 extends Colleague {
+    public ConcretaColleague1(Mediator mediator) {
         super(mediator);
     }
 

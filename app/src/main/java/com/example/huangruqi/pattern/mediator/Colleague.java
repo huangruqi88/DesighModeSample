@@ -5,10 +5,10 @@ package com.example.huangruqi.pattern.mediator;
  * author:huang
  * Description:请详细描述当前类
  */
-public abstract class Colleage {
+public abstract class Colleague {
     protected Mediator mediator;
 
-    public Colleage(Mediator mediator) {
+    public Colleague(Mediator mediator) {
         this.mediator = mediator;
     }
 }
