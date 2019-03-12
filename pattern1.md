@@ -28,8 +28,9 @@
 ##### [23.解释器模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
 ##### [24.访问者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
 
-<div id="1.简单工厂模式"></div>
+
 ## 1.简单工厂模式(SimpleFactory)
+<div id="1.简单工厂模式"></div>
 
 		简单工厂：提供一个创建对象的工厂（Factory）实例功能，而不需要具体实现，被创建的类型可以是接口、抽象类、也可以是具体的
 			类。
@@ -52,8 +53,10 @@
 	      类根据不同条件创建不同实例的需求．这种对条件的判断和对具体产品类型的判断交错在一起，很难避免模块功能的蔓延，对系
 	      统的维护和扩展非常不利；
 
-<div id="2.策略模式"></div>
+
 ## 2.策略模式（Strategy）
+<div id="2.策略模式"></div>
+
 	策略模式：它定义了算法家族，分别封装起来，让他们之间互相替换,此模式让算法的变化，不会影响到使用它的客户。
 	解释：从概念上看所有的这写算法完成的都是相同的工作，只是实现不同，它可以以相同的方式调用所有的算法，减少了各种算法与
 	     使用算法尅之间的耦合。
@@ -66,8 +69,10 @@
 		* 在基本策略模式中，选择所用具体实现的职责由客户端对象承担，并转给策略模式的Context对象。
 ![策略设计模式](https://i.imgur.com/BSU5jD8.png)
 
-<div id="3.装饰模式"></div>
+
 ## 3.装饰模式(Decorator)
+<div id="3.装饰模式"></div>
+
 	装饰设计模式：动态的给对象添加一些额外的职责或者功能，装饰设计模式比生成子类更为灵活。
 
 
@@ -83,8 +88,9 @@
 		    2.如果只有一个ConcreteComponent类而没有抽象的Component类，那么Decorator类可以是一个ConcreteComponent
 		的一个子类。同样，如果只有一个ConcreteDecorator类，那么可以把Decorator类和ConcreteDecorator的责任和成一个类。
 
-<div id="4.代理模式"></div>
+
 ## 4.代理模式(Proxy)
+<div id="4.代理模式"></div>
 
 	代理模式（Proxy）：未其他对象提供一种代理以控制这个对象的访问。
 
