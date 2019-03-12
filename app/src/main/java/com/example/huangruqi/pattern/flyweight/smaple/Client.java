@@ -12,9 +12,9 @@ public class Client {
         Ticket ticket01 = new TicketFactory().getTiket("杭州","民权");
         ticket01.showTicketInfo("上铺");
         Ticket ticket02 = new TicketFactory().getTiket("杭州","郑州");
-        ticket01.showTicketInfo("下铺");
+        ticket02.showTicketInfo("下铺");
         Ticket ticket03 = new TicketFactory().getTiket("民权","上海");
-        ticket01.showTicketInfo("坐票");
+        ticket03.showTicketInfo("坐票");
     }
 
 }
