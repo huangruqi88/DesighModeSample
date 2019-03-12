@@ -1,32 +1,33 @@
-##### [1.简单工厂模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md)
-##### [2.策略模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md)
-##### [3.装饰模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md)
-##### [4.代理模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md)
+##### [1.简单工厂模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md#1.简单工厂模式)
+##### [2.策略模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md#2.策略模式)
+##### [3.装饰模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md#3.装饰模式)
+##### [4.代理模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern1.md#4.代理模式)
 
-##### [5.工厂方法模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md)
-##### [6.原型模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md)
-##### [7.模板方法模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md)
-##### [8.外观模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md)
+##### [5.工厂方法模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md#5.工厂方法模式)
+##### [6.原型模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md#6.原型模式)
+##### [7.模板方法模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md#7.模板方法模式)
+##### [8.外观模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md#8.外观模式)
+
 
 ##### [9.建造者模式](#9.建造者模式)
 ##### [10.观察者模式](#10.观察者模式)
 ##### [11.抽象工厂模式](#11.抽象工厂模式)
 ##### [12.状态模式](#12.状态模式)
 
-##### [13.适配器模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern4.md)
-##### [14.备忘录模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern4.md)
-##### [15.组合模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern4.md)
-##### [16.迭代器模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern4.md)
+##### [13.适配器模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern4.md#13.适配器模式)
+##### [14.备忘录模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern4.md#14.备忘录模式)
+##### [15.组合模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern4.md#15.组合模式)
+##### [16.迭代器模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern4.md#16.迭代器模式)
 
-##### [17.单例模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern5.md)
-##### [18.桥接模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern5.md)
-##### [19.命令模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern5.md)
-##### [20.责任链模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern5.md)
+##### [17.单例模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern5.md#17.单例模式)
+##### [18.桥接模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern5.md#18.桥接模式)
+##### [19.命令模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern5.md#19.命令模式)
+##### [20.责任链模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern5.md#20.责任链模式)
 
-##### [21.中介者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
-##### [22.享元模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
-##### [23.解释器模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
-##### [24.访问者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
+##### [21.中介者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md#21.中介者模式)
+##### [22.享元模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md#22.享元模式)
+##### [23.解释器模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md#23.解释器模式)
+##### [24.访问者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md#24.访问者模式)
 
 <div id="9.建造者模式"></div>
 
