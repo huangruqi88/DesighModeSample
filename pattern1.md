@@ -3,10 +3,10 @@
 ##### [3.装饰模式](#3.装饰模式)
 ##### [4.代理模式](#4.代理模式)
 
-##### [5.工厂方法模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md)
-##### [6.原型模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md)
-##### [7.模板方法模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md)
-##### [8.外观模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md)
+##### [5.工厂方法模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md#5.工厂方法模式)
+##### [6.原型模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md#6.原型模式)
+##### [7.模板方法模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md#7.模板方法模式)
+##### [8.外观模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern2.md#8.外观模式)
 
 ##### [9.建造者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern3.md)
 ##### [10.观察者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern3.md)
