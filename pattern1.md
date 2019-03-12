@@ -26,7 +26,7 @@
 ##### [21.中介者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
 ##### [22.享元模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
 ##### [23.解释器模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
-##### [24.访问者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md
+##### [24.访问者模式](https://github.com/huangruqi88/DesighModeSample/blob/master/pattern6.md)
 
 <div id="1.简单工厂模式"></div>
 ## 1.简单工厂模式(SimpleFactory)
