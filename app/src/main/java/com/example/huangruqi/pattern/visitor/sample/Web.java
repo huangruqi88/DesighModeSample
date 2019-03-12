@@ -18,7 +18,7 @@ public abstract class Web {
      */
     public abstract void accept(Visitor visitor);
 
-    /**
+     /**
      * 下载的方法
      */
     public abstract void download();
